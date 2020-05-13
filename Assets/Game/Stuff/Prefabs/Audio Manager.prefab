@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6100682171166489797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6100682171166489799}
+  - component: {fileID: 6100682171166489798}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6100682171166489799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6100682171166489797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7.8598175, z: -28.192081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6100682171166489798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6100682171166489797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8dec9ecff3c47ac9e2796de8b64bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PonySoldier
+    clip: {fileID: 8300000, guid: 9835d402fe4b24632b4f5d68e9a95ebf, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: BadBoy
+    clip: {fileID: 8300000, guid: 13ce9c16313ec4b59a6dbb4a8561e9a0, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: Legs
+    clip: {fileID: 8300000, guid: 51ac36a3f8aa0440da9aa962ed173a5b, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: NeatTown
+    clip: {fileID: 8300000, guid: 0a73d3efd8b234ca88aa0ecae62c845d, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: PoorKids
+    clip: {fileID: 8300000, guid: 9835d402fe4b24632b4f5d68e9a95ebf, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: ScuseMe
+    clip: {fileID: 8300000, guid: 4c707ee4148e54e8ea3b80267326b170, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: ThankYou
+    clip: {fileID: 8300000, guid: 1f8df2950da49400281e775856ff03f8, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: Truth
+    clip: {fileID: 8300000, guid: defc7f2febc1f461cadf79ab542c94ca, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: Um
+    clip: {fileID: 8300000, guid: 51c98f52f688d412695bf437a3d4020e, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: Candidate
+    clip: {fileID: 8300000, guid: 34cd28610e5ad4254be4bbff54ac5271, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
+  - name: Joe
+    clip: {fileID: 8300000, guid: 7ab9ff39137ca4640b40bc5e03fa8451, type: 3}
+    volume: 0.86
+    pitch: 1
+    source: {fileID: 0}
